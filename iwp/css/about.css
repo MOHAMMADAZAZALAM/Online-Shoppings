@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{
+	background-color:#993;
+	background-image:url(../image/image.jpg);
+}
+.head{
+	color:#009;
+	font-size: 24px;
+	font-style:italic;
+	}
+	.name{
+		color:#00F;
+		float:left;
+		overflow:hidden;	
+	}
+	#first{
+		width:70%;
+		height:220px;
+		 
+	}
+#con1,#con2,#con3{
+	font-size:20px;
+}
+

@@ -1,0 +1,141 @@
+body{
+	
+	margin:0%;
+	padding:0%;
+	background-image: url(../image/image.jpg);
+	background-size: cover;
+    background-position: center;
+}
+#member_login{
+	height:auto;
+	width:70%;
+	background:rgba(0,0,0,0.5);
+    color:#fff;
+	margin:3% 0% 5% 15%;
+	float:left;
+}
+
+input[type=text]{
+	height:30px;
+	width:20%;
+	margin:2% 0% 1% 20%;
+float:left;	
+}
+input[type=date]{
+	height:30px;
+	width:20%;
+	margin:2% 0% 1% 20%;
+float:left;	
+}
+input[type=password]{
+	height:30px;
+	width:60%;
+	margin:2% 0% 1% 20%;
+float:left;	
+}
+textarea{
+	height:100px;
+	width:60%;
+	margin:2% 0% 1% 20%;
+}
+input[type=email]{
+	height:30px;
+	width:60%;
+	margin:2% 0% 1% 20%;
+float:left;	
+}
+input[type=file]{
+	margin:2% 0% 1% 20%;
+float:left;	
+}
+input[type=submit]{
+	height:70px;
+   color:white;
+    background-color: #60C;
+   font-size:30px;
+    border: none;
+	outline: none;
+	border-radius: 40px;
+}
+input[type=submit]:hover
+{
+	height:70px;
+   color:white;
+   background-color: #009; 
+   font-size:30px;
+   border-radius: 40px;
+}
+
+@media only screen and (min-width: 200px) and (max-width:769px){
+	#member_login{
+	width:90%;
+	margin:3% 0% 5% 5%;
+	float:left;
+}
+	input[type=text]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=email]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=file]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=password]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=date]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=submit]{
+		width:90%;
+		margin:0% 5% 5% 5%;
+	}
+	textarea{
+	height:100px;
+	width:90%;
+	margin:3% 5% 5% 5%;
+}
+}
+
+@media only screen and (max-device-width: 480px){
+	#member_login{
+	width:90%;
+	margin:3% 0% 5% 5%;
+	float:left;
+}
+	input[type=text]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=email]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=file]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=password]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=date]{
+		width:90%;
+		margin:3% 5% 5% 5%;
+	}
+	input[type=submit]{
+		width:90%;
+		margin:0% 5% 5% 5%;
+	}
+	textarea{
+	height:100px;
+	width:90%;
+	margin:3% 5% 5% 5%;
+}
+}

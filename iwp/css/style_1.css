@@ -1,0 +1,90 @@
+body{
+	
+	margin:0%;
+	padding:0%;
+	background-image: url(../image/image.jpg);
+	background-size: cover;
+    background-position: center;
+}
+form{background:rgba(0,0,0,0.5);
+     color:#fff;
+}
+h2{
+	color: #30C;
+	background:rgba(0,0,0,0.5)
+	;
+}
+#password{
+	height:auto;
+	background-color:white;
+	width:50%;
+	margin:4% 0% 2% 25%;
+	float:left;
+	box-shadow:0 0 10px #636870;
+	background:rgba(0,0,0,0.5);
+		
+}
+#password p{
+	margin:1% 0% 1% 8%;
+}
+
+input[type=name]{
+	height:24px;
+	width:80%;
+	margin:1% 0% 1% 8%; 
+}
+
+input[type=text]{
+	height:24px;
+	width:80%;
+	margin:1% 0% 1% 8%; 
+}
+input[type=email]{
+	height:24px;
+	width:80%;
+	margin:1% 0% 1% 8%; 
+}
+
+input[type=password]{
+	height:24px;
+	width:80%;
+	margin:1% 0% 1% 8%; 
+}
+
+input[type=submit]{
+	height:30px;
+	width:25%;
+	margin:2% 0% 3% 0%;
+    background-color:rgb(35,166,228);
+	border-radius:5%;
+    color:white;
+	font-size:18px;  	
+}
+@media only screen and (min-width: 200px) and (max-width:769px){
+		body{
+	margin:0%;
+	padding:0%;
+		}
+input[type=submit]{
+		width:50%;
+	}
+
+	#password{
+		width:100%;
+		 margin:4% 0% 20% 0%;
+	}
+}
+@media only screen and (max-device-width: 480px){
+		body{
+	margin:0%;
+	padding:0%;
+		}
+input[type=submit]{
+		width:50%;
+	}
+
+	#password{
+		width:100%;
+		 margin:4% 0% 20% 0%;
+	}
+}	
